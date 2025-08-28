@@ -1,7 +1,7 @@
 const Person = ({ image, name, age }) => {
   return (
-    <article>
-      <img src={image} alt={name} style={{ width: "10rem" }} />
+    <article className="person">
+      <img src={image} alt={name} className="img" />
       <div>
         <h4>{name}</h4>
         <p>{age} years</p>
