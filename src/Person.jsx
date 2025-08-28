@@ -9,5 +9,4 @@ const Person = ({ image, name, age }) => {
     </article>
   );
 };
-
 export default Person;

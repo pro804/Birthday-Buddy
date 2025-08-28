@@ -1,12 +1,90 @@
-# React + Vite
+# Birthday Buddies 🎂
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![Vite](https://img.shields.io/badge/Vite-Bundler-purple?logo=vite)
+![Netlify](https://img.shields.io/badge/Deployed%20on-Netlify-green?logo=netlify)
 
-Currently, two official plugins are available:
+A small, focused React project built to practice and demonstrate the core useState Hook. It displays a list of birthdays with the ability to clear them all.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- **State Management** — Core functionality powered by the React useState Hook.
+- **Dynamic List Rendering** — Birthdays are rendered by mapping over a state array.
+- **Component Composition** — Built with reusable List and Person components.
+- **Clear Functionality** — A button that updates state to clear the entire list.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💡 Key Learnings / Implemented Challenges
+
+This project was created to complete specific challenges focused on foundational React concepts:
+
+- Importing and using local JSON data within a component.
+
+- Setting up a state variable using the useState hook.
+
+- Using the `map()` method to iterate over data and render components.
+
+- Creating reusable functional components `(List, Person)` that receive props.
+
+- Updating state to dynamically clear the UI.
+
+- Using the array length property to display a count.
+
+## 🧰 Built With
+
+- Vite + React 19
+- JavaScript (ES6+)
+- HTML5 & CSS3
+
+## ▶️ Live Demo
+
+**View Live on Netlify:**
+https://birthday-buddy-gpdev.netlify.app/
+
+## 🎨 Design
+
+Figma design provided by the course instructor:[ Preview here](https://www.figma.com/file/e2vsLe9DMnXZIygNHkwGL1/Birthday-buddy?node-id=0%3A1&t=AGNWdO5QQGOoNCfD-1)
+
+## 📦 Getting Started
+
+### Prerequisites
+
+- **Node.js ≥ 18**
+- **npm or yarn**
+
+### Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/pro804/Birthday-Buddy.git
+```
+
+2. Navigate to the project directory
+
+```bash
+cd birthday-buddies
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+5. Open http://localhost:5173 to view it in the browser.
+
+## 🔧 Scripts
+
+- `npm run dev` — Runs the development server (Vite)
+- `npm run build` — Builds the app for production
+- `npm run preview` — Previews the production build locally
+
+## 📄 License
+
+This project is created for educational purposes as part of a React learning journey.
