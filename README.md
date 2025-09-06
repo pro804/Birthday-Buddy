@@ -6,6 +6,8 @@
 
 A small, focused React project built to practice and demonstrate the core useState Hook. It displays a list of birthdays with the ability to clear them all.
 
+![Birthday-Buddies-Screenshot](./src/assets/Screenshot%20.png)
+
 ## ✨ Features
 
 - **State Management** — Core functionality powered by the React useState Hook.
